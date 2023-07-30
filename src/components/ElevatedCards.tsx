@@ -4,7 +4,7 @@ import React from 'react'
 const ElevatedCards = () => {
     return (
         <View>
-            <Text className="font-bold text-2xl p-4 ">Flat Cards</Text>
+            <Text className="font-bold text-2xl p-4 ">Scroll Cards</Text>
             <ScrollView horizontal={true}  >
 
                 <View className='flex flex-row  gap-x-2 px-4 '>

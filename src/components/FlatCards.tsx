@@ -5,7 +5,7 @@ export default function FlatCards() {
   return (
     <View>
       <Text className="font-bold text-2xl p-4 ">Flat Cards</Text>
-      <View className='flex flex-row px-4 gap-x-3 '>
+      <View className='flex flex-row justify-between px-4 gap-x-3 '>
         <View className=' h-[100px] w-[100px] bg-[#bc2038] items-center justify-center p-4 rounded-xl ' >
             <Text>Red</Text>
         </View>
